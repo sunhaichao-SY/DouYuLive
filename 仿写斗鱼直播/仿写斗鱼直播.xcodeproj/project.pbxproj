@@ -9,9 +9,14 @@
 /* Begin PBXBuildFile section */
 		4E8674541D899E2B0059012C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8674531D899E2B0059012C /* main.m */; };
 		4E8674571D899E2B0059012C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8674561D899E2B0059012C /* AppDelegate.m */; };
-		4E86745D1D899E2B0059012C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E86745B1D899E2B0059012C /* Main.storyboard */; };
 		4E86745F1D899E2B0059012C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E86745E1D899E2B0059012C /* Assets.xcassets */; };
 		4E8674621D899E2B0059012C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E8674601D899E2B0059012C /* LaunchScreen.storyboard */; };
+		4E8674B31D89AC6D0059012C /* SYHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8674A31D89AC6D0059012C /* SYHomeController.m */; };
+		4E8674B61D89AC7E0059012C /* SYLiveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8674B51D89AC7E0059012C /* SYLiveController.m */; };
+		4E8674B91D89AC940059012C /* SYProdfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8674B81D89AC940059012C /* SYProdfileController.m */; };
+		4E8674BC1D89ACA60059012C /* SYFollowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8674BB1D89ACA60059012C /* SYFollowController.m */; };
+		4E8674BF1D89AD480059012C /* SYMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8674BE1D89AD480059012C /* SYMainController.m */; };
+		4E8674C21D89AF270059012C /* SYNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8674C11D89AF270059012C /* SYNavigationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,10 +24,21 @@
 		4E8674531D899E2B0059012C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4E8674551D899E2B0059012C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4E8674561D899E2B0059012C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4E86745C1D899E2B0059012C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E86745E1D899E2B0059012C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E8674611D899E2B0059012C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E8674631D899E2B0059012C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E8674A21D89AC6D0059012C /* SYHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYHomeController.h; sourceTree = "<group>"; };
+		4E8674A31D89AC6D0059012C /* SYHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYHomeController.m; sourceTree = "<group>"; };
+		4E8674B41D89AC7E0059012C /* SYLiveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYLiveController.h; sourceTree = "<group>"; };
+		4E8674B51D89AC7E0059012C /* SYLiveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYLiveController.m; sourceTree = "<group>"; };
+		4E8674B71D89AC940059012C /* SYProdfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYProdfileController.h; sourceTree = "<group>"; };
+		4E8674B81D89AC940059012C /* SYProdfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYProdfileController.m; sourceTree = "<group>"; };
+		4E8674BA1D89ACA60059012C /* SYFollowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYFollowController.h; sourceTree = "<group>"; };
+		4E8674BB1D89ACA60059012C /* SYFollowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYFollowController.m; sourceTree = "<group>"; };
+		4E8674BD1D89AD480059012C /* SYMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYMainController.h; sourceTree = "<group>"; };
+		4E8674BE1D89AD480059012C /* SYMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYMainController.m; sourceTree = "<group>"; };
+		4E8674C01D89AF270059012C /* SYNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYNavigationViewController.h; sourceTree = "<group>"; };
+		4E8674C11D89AF270059012C /* SYNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYNavigationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +71,9 @@
 		4E8674511D899E2B0059012C /* 仿写斗鱼直播 */ = {
 			isa = PBXGroup;
 			children = (
-				4E8674691D89A4E50059012C /* Class */,
+				4E86749B1D89AC6D0059012C /* Class */,
 				4E8674551D899E2B0059012C /* AppDelegate.h */,
 				4E8674561D899E2B0059012C /* AppDelegate.m */,
-				4E86745B1D899E2B0059012C /* Main.storyboard */,
 				4E86745E1D899E2B0059012C /* Assets.xcassets */,
 				4E8674601D899E2B0059012C /* LaunchScreen.storyboard */,
 				4E8674631D899E2B0059012C /* Info.plist */,
@@ -75,55 +90,187 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4E8674691D89A4E50059012C /* Class */ = {
+		4E86749B1D89AC6D0059012C /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				4E86746D1D89A4E50059012C /* Main */,
-				4E86746B1D89A4E50059012C /* Home */,
-				4E86746C1D89A4E50059012C /* Live */,
-				4E86746A1D89A4E50059012C /* Follow */,
-				4E86746E1D89A4E50059012C /* Profile */,
-				4E86746F1D89A4E50059012C /* Tools */,
+				4E86749C1D89AC6D0059012C /* Follow */,
+				4E8674A01D89AC6D0059012C /* Home */,
+				4E8674A61D89AC6D0059012C /* Live */,
+				4E8674AA1D89AC6D0059012C /* Main */,
+				4E8674AE1D89AC6D0059012C /* Profile */,
+				4E8674B21D89AC6D0059012C /* Tools */,
 			);
 			path = Class;
 			sourceTree = "<group>";
 		};
-		4E86746A1D89A4E50059012C /* Follow */ = {
+		4E86749C1D89AC6D0059012C /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				4E86749D1D89AC6D0059012C /* Controller */,
+				4E86749E1D89AC6D0059012C /* Model */,
+				4E86749F1D89AC6D0059012C /* View */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
 		};
-		4E86746B1D89A4E50059012C /* Home */ = {
+		4E86749D1D89AC6D0059012C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4E8674BA1D89ACA60059012C /* SYFollowController.h */,
+				4E8674BB1D89ACA60059012C /* SYFollowController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E86749E1D89AC6D0059012C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E86749F1D89AC6D0059012C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E8674A01D89AC6D0059012C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4E8674A11D89AC6D0059012C /* Controller */,
+				4E8674A41D89AC6D0059012C /* Model */,
+				4E8674A51D89AC6D0059012C /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		4E86746C1D89A4E50059012C /* Live */ = {
+		4E8674A11D89AC6D0059012C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4E8674A21D89AC6D0059012C /* SYHomeController.h */,
+				4E8674A31D89AC6D0059012C /* SYHomeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E8674A41D89AC6D0059012C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E8674A51D89AC6D0059012C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E8674A61D89AC6D0059012C /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				4E8674A71D89AC6D0059012C /* Controller */,
+				4E8674A81D89AC6D0059012C /* Model */,
+				4E8674A91D89AC6D0059012C /* View */,
 			);
 			path = Live;
 			sourceTree = "<group>";
 		};
-		4E86746D1D89A4E50059012C /* Main */ = {
+		4E8674A71D89AC6D0059012C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4E8674B41D89AC7E0059012C /* SYLiveController.h */,
+				4E8674B51D89AC7E0059012C /* SYLiveController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E8674A81D89AC6D0059012C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E8674A91D89AC6D0059012C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E8674AA1D89AC6D0059012C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4E8674AB1D89AC6D0059012C /* Controller */,
+				4E8674AC1D89AC6D0059012C /* Model */,
+				4E8674AD1D89AC6D0059012C /* View */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		4E86746E1D89A4E50059012C /* Profile */ = {
+		4E8674AB1D89AC6D0059012C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4E8674BD1D89AD480059012C /* SYMainController.h */,
+				4E8674BE1D89AD480059012C /* SYMainController.m */,
+				4E8674C01D89AF270059012C /* SYNavigationViewController.h */,
+				4E8674C11D89AF270059012C /* SYNavigationViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E8674AC1D89AC6D0059012C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E8674AD1D89AC6D0059012C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E8674AE1D89AC6D0059012C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				4E8674AF1D89AC6D0059012C /* Controller */,
+				4E8674B01D89AC6D0059012C /* Model */,
+				4E8674B11D89AC6D0059012C /* View */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
 		};
-		4E86746F1D89A4E50059012C /* Tools */ = {
+		4E8674AF1D89AC6D0059012C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E8674B71D89AC940059012C /* SYProdfileController.h */,
+				4E8674B81D89AC940059012C /* SYProdfileController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E8674B01D89AC6D0059012C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E8674B11D89AC6D0059012C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E8674B21D89AC6D0059012C /* Tools */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -190,7 +337,6 @@
 			files = (
 				4E8674621D899E2B0059012C /* LaunchScreen.storyboard in Resources */,
 				4E86745F1D899E2B0059012C /* Assets.xcassets in Resources */,
-				4E86745D1D899E2B0059012C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,22 +347,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E8674BC1D89ACA60059012C /* SYFollowController.m in Sources */,
 				4E8674571D899E2B0059012C /* AppDelegate.m in Sources */,
+				4E8674C21D89AF270059012C /* SYNavigationViewController.m in Sources */,
+				4E8674B91D89AC940059012C /* SYProdfileController.m in Sources */,
+				4E8674B61D89AC7E0059012C /* SYLiveController.m in Sources */,
 				4E8674541D899E2B0059012C /* main.m in Sources */,
+				4E8674B31D89AC6D0059012C /* SYHomeController.m in Sources */,
+				4E8674BF1D89AD480059012C /* SYMainController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4E86745B1D899E2B0059012C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4E86745C1D899E2B0059012C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4E8674601D899E2B0059012C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -264,7 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -302,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -316,10 +460,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = "仿写斗鱼直播/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "King-.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -329,10 +474,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = "仿写斗鱼直播/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "King-.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -355,6 +501,7 @@
 				4E8674681D899E2B0059012C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

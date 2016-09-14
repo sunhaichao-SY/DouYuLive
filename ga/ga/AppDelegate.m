@@ -1,13 +1,13 @@
 //
 //  AppDelegate.m
-//  仿写斗鱼直播
+//  ga
 //
 //  Created by 码农界四爷__King on 16/9/14.
 //  Copyright © 2016年 码农界四爷__King. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "SYMainController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,18 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    //设置全局照片为橘色
-    [UITabBar appearance].tintColor = [UIColor orangeColor];
-    
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    
-    self.window.rootViewController = [[SYMainController alloc] init];
-    
-    [self.window makeKeyAndVisible];
-    
-    
-    
     return YES;
 }
 
